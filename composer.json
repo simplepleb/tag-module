@@ -1,0 +1,27 @@
+{
+    "name": "simplepleb/tag-module",
+    "description": "Tag module for Laravel.",
+    "type": "laravel-module",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "SimplePleb",
+            "email": "plebeian.tribune@protonmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Tag\\Providers\\TagServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tag\\": ""
+        }
+    }
+}
