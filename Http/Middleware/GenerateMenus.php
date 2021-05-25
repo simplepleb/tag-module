@@ -50,7 +50,7 @@ class GenerateMenus
                 'class' => "c-sidebar-nav-item",
             ])
             ->data([
-                'order' => 84,
+                'order' => 98,
                 'activematches' => ['admin/tags*'],
                 'permission' => ['view_tags'],
             ])
